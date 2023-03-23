@@ -27,10 +27,6 @@ body {
   text-decoration: none;
 }
 
-.bpos1{
-  margin-top: 70px;
-}
-
 @media only screen and (min-width: 200px) and (max-width: 990px) {
   .title{
     color: #a01b35;
@@ -67,6 +63,10 @@ body {
     text-align: center;
     color: #f2f3e5;
     font-size: 4rem;
+  }
+  
+  .bpos1{
+    margin-top: 70px;
   }
 
   .bpos2{
@@ -118,18 +118,22 @@ body {
     color: #f2f3e5;
     font-size: 2rem;
   }
+  
+  .bpos1{
+    margin-top: 60px;
+  }
 
   .bpos2{
-    margin-top: 170px;
+    margin-top: 160px;
   }
 
   .bpos3{
-    margin-top: 270px;
+    margin-top: 260px;
     padding: 10px 110px 10px 110px;
   }
 
   .bpos4{
-    margin-top: 370px;
+    margin-top: 360px;
   }
 
   .bpos11{
