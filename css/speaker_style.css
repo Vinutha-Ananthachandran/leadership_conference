@@ -94,7 +94,7 @@ table{
     }
 
     .para{
-      color: #a01b35;
+      color: black;
       font-family: 'Alkatra', cursive;
       text-align: justify;
       margin-left: 0;
@@ -181,7 +181,7 @@ table{
   }
 
   .para{
-    color: #a01b35;
+    color: black;
     font-family: 'Alkatra', cursive;
     text-align: justify;
     margin-left: 0;
