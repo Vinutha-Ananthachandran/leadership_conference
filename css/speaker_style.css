@@ -1,0 +1,191 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: #f2f3e5;
+}
+
+body {
+  display: table;
+}
+
+th{
+  padding: 1rem;
+}
+
+table{
+  margin: 0;
+  padding: 0;
+}
+
+.headshot1{
+  width: 100%;
+}
+
+@media only screen and (min-width: 200px) and (max-width: 990px) {
+  .brd{
+      margin: 10px;
+      border-color: #a01b35;
+      background-color: #f2f3e5;
+      border-width: thick;
+      border-style: solid;
+      position: relative;
+      min-height: calc(100vh - 10px);
+      overflow: scroll;
+  }
+
+  .loc{
+    color: #a01b35;
+    font-family: 'Alkatra', cursive;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 3rem;
+    font-size: 2rem;
+  }
+
+  .ploc{
+    color: #a01b35;
+    margin-bottom: 0;
+    font-family: 'Alkatra', cursive;
+    text-align: justify;
+    margin-left: 3rem;
+    font-size: 2rem;
+  }
+
+  .title{
+    color: #a01b35;
+    font-family: 'Dancing Script', cursive;
+    font-size: 5rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px 0 0 0;
+  }
+
+  .align{
+    color: black;
+    font-family: 'Dancing Script', cursive;
+    font-size: 4rem;
+    font-weight: bold;
+    margin-left: 1rem;
+  }
+
+    .box{
+      inline-size: 90%;
+      overflow-wrap: break-word;
+      position: absolute;
+      left: 2rem;
+      right: 2rem;
+      font-size: 2rem;
+    }
+
+    .headshot , .headshot5 , .headshot6 , .headshot7{
+      width: 35%;
+      margin-left: 30%;
+      margin-bottom: 1rem;
+    }
+
+    .main{
+      display: block;
+    }
+
+    .logo{
+      position: absolute;
+      right: 1rem;
+      width: 30%;
+    }
+
+    .para{
+      color: #a01b35;
+      font-family: 'Alkatra', cursive;
+      text-align: justify;
+      margin-left: 0;
+      margin-top: 0;
+    }
+
+}
+
+@media only screen and (min-width: 992px) {
+  .brd{
+      margin: 10px;
+      border-color: #a01b35;
+      background-color: #f2f3e5;
+      border-width: thick;
+      border-style: solid;
+      position: relative;
+      min-height: calc(100vh - 10px);
+  }
+
+  .loc{
+    color: #a01b35;
+    font-family: 'Alkatra', cursive;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 3rem;
+  }
+
+  .ploc{
+    color: #a01b35;
+    margin-bottom: 0;
+    font-family: 'Alkatra', cursive;
+    text-align: justify;
+    margin-left: 3rem;
+  }
+
+  .title{
+    color: #a01b35;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    margin: 10px 0 0 0;
+  }
+
+  .align{
+    color: black;
+    font-family: 'Dancing Script', cursive;
+    margin-left: 1rem;
+  }
+
+  .box{
+    inline-size: 65%;
+    overflow-wrap: break-word;
+    position: absolute;
+    right: 2rem;
+  }
+
+  .headshot{
+    width: 35%;
+    margin: 0.25rem 1rem 2.5rem 2.5rem;
+  }
+
+  .headshot5{
+    width: 45%;
+    margin: 0.25rem 1rem 2.5rem 4.25rem;
+  }
+
+  .headshot6{
+    width: 20%;
+    margin: 0.25rem 1rem 2.5rem 4.75rem;
+  }
+
+  .headshot7{
+    width: 40%;
+    margin: 0.25rem 1rem 2.5rem 4.25rem;
+  }
+
+  .main{
+    display: flex;
+  }
+
+  .logo{
+    position: absolute;
+    right: 1rem;
+    width: 15%;
+  }
+
+  .para{
+    color: #a01b35;
+    font-family: 'Alkatra', cursive;
+    text-align: justify;
+    margin-left: 0;
+    margin-top: 0;
+  }
+
+}

@@ -1,0 +1,144 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: #f2f3e5;
+}
+
+body {
+  display: table;
+}
+
+.brd{
+    position: relative;
+    margin: 10px;
+    min-height: calc(100vh - 20px);
+    border-color: #a01b35;
+    background-color: #f2f3e5;
+    border-width: thick;
+    border-style: solid;
+    height: 100%;
+}
+
+.btn:hover {
+  background: #f2f3e5;
+  border-color: #a01b35;
+  border-width: medium;
+  color: #a01b35;
+  text-decoration: none;
+}
+
+.bpos1{
+  margin-top: 70px;
+}
+
+@media only screen and (min-width: 200px) and (max-width: 990px) {
+  .title{
+    color: #a01b35;
+    font-family: 'Dancing Script', cursive;
+    font-size: 5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .outline{
+    position: absolute;
+    width: 40%;
+    height: 25%;
+    bottom: 0;
+    right: 0;
+  }
+
+  .logo{
+    position: absolute;
+    height: 25%;
+    bottom: 25px;
+    left: 20px;
+  }
+
+  .btn {
+    position: absolute;
+    left: 6.5%;
+    border-radius: 28px;
+    background: #a01b35;
+    padding: 10px 300px 10px 300px;
+    text-decoration: none;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    color: #f2f3e5;
+    font-size: 4rem;
+  }
+
+  .bpos2{
+    margin-top: 250px;
+  }
+
+  .bpos3{
+    margin-top: 430px;
+    padding: 10px 320px 10px 320px;
+  }
+
+  .bpos4{
+    margin-top: 610px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+
+  .outline{
+    position: absolute;
+    width: 25%;
+    height: 50%;
+    bottom: 0;
+    right: 0;
+  }
+
+  .logo{
+    position: absolute;
+    height: 60%;
+    top: 125px;
+  }
+
+  .title{
+    color: #a01b35;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .btn {
+    position: absolute;
+    left: 40%;
+    border-radius: 28px;
+    background: #a01b35;
+    padding: 10px 100px 10px 100px;
+    text-decoration: none;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    color: #f2f3e5;
+    font-size: 2rem;
+  }
+
+  .bpos2{
+    margin-top: 170px;
+  }
+
+  .bpos3{
+    margin-top: 270px;
+    padding: 10px 110px 10px 110px;
+  }
+
+  .bpos4{
+    margin-top: 370px;
+  }
+
+  .bpos11{
+    left: 28%;
+    margin-top: 90px;
+  }
+
+  .bpos21{
+    left: 28%;
+    margin-top: 200px;
+  }
+}
